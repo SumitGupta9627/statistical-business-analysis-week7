@@ -1,0 +1,50 @@
+STATISTICAL BUSINESS ANALYSIS — HYPOTHESIS TEST RESULTS
+================================================================
+
+1. ONE-SAMPLE T-TEST
+Question: Is average daily sales different from the $45,000 benchmark?
+H0: Mean sales = $45,000
+H1: Mean sales != $45,000
+t-statistic: 14.6792
+p-value: 0.000000
+Decision: SIGNIFICANT
+Interpretation: The p-value indicates whether the observed difference from the benchmark is statistically significant at alpha = 0.05.
+
+2. INDEPENDENT TWO-SAMPLE T-TEST
+Question: Do North and South regions have different average sales?
+H0: Mean North sales = Mean South sales
+H1: Mean North sales != Mean South sales
+North mean: $58,442.99
+South mean: $52,437.29
+t-statistic: 3.6422
+p-value: 0.000569
+Decision: SIGNIFICANT
+Interpretation: The test compares the average sales of the two independent regional groups.
+
+3. ONE-WAY ANOVA
+Question: Do average sales differ among North, South, and West?
+H0: All regional mean sales are equal
+H1: At least one regional mean differs
+F-statistic: 8.5532
+p-value: 0.000379
+Decision: SIGNIFICANT
+Interpretation: ANOVA tests whether there is evidence of a difference among the three regional means.
+
+CORRELATION
+Sales vs Marketing Spend: 0.8046
+Sales vs Customers: 0.3763
+Marketing Spend vs Customers: -0.0162
+
+95% CONFIDENCE INTERVAL
+Mean Sales: $55,257.63
+95% CI: $53,871.09 to $56,644.17
+Margin of Error: ±$1,386.54
+
+REGRESSION
+Model: Sales = intercept + slope × Marketing_Spend
+Intercept: 28,482.99
+Slope: 4.1214
+R-squared: 0.6474
+RMSE: 4,128.59
+
+Alpha used for hypothesis tests: 0.05
